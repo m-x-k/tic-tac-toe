@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+  color: white;
+}
+h1 {
+  font-size: 5em;
+  text-align: center;
+  color: mediumpurple;
+}
+.container {
+  font-size: 4em;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.game {
+  display: none;
+}
+.row {
+  border-color: grey;
+  text-align: center;
+}
+.box {
+  border-color: mediumpurple;
+  border-style: solid;
+  color: palevioletred;
+}
+table {
+  margin-top: 10%;
+  margin-left:auto;
+  margin-right:auto;
+  width: 230px;
+}
+td { width:76px; height:83px; }
+.X {
+  color: palevioletred;
+}
+.O {
+  color: palegreen;
+}
+.O:hover {
+  background-color: darkslateblue;
+}
+.X:hover {
+  background-color: darkslateblue;
+}
+.question {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}

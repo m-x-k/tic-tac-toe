@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" type="text/css" href='/css/app.css'>
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+  <div class="container">
+
+    <div class="row">
+      <button id="reset" class="btn btn-lg btn-warning">Reset</button>
+      <div id="result"></div>
+    </div>
+
+    <div class="row">
+      <h2>Do you want to be 'X' or 'O'?</h2>
+      <div id="question" class="question">
+        <div id="X" class="X">X</div>
+        <div id="O" class="O">O</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <table id="game" class="invisible">
+        <tr>
+          <td id="0" class="box col-md-4"></td>
+          <td id="1" class="box col-md-4"></td>
+          <td id="2" class="box col-md-4"></td>
+        </tr>
+        <tr>
+          <td id="3" class="box col-md-4"></td>
+          <td id="4" class="box col-md-4"></td>
+          <td id="5" class="box col-md-4"></td>
+        </tr>
+        <tr>
+          <td id="6" class="box col-md-4"></td>
+          <td id="7" class="box col-md-4"></td>
+          <td id="8" class="box col-md-4"></td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
